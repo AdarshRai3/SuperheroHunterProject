@@ -2,7 +2,7 @@
 // npm install crypto-js
 
 // Then, you can use the MD5 function from crypto-js as follows:
-import MD5 from "crypto-js/md5";
+import MD5 from "crypto-js/md5.js";
 
 // Your public and private keys
 var public_key = "801ffb179c43e62422d9c6ac3f1203f0";

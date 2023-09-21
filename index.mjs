@@ -1,4 +1,4 @@
-import { ts, public_key, hash } from './api.js';
+import { ts, public_key, hash } from './api.mjs';
 
 let input = document.getElementById("input-box");
 let button = document.getElementById("submit-button");
