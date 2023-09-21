@@ -2,7 +2,7 @@
 // npm install crypto-js
 
 // Then, you can use the MD5 function from crypto-js as follows:
-var MD5 = require("crypto-js/md5");
+import MD5 from "crypto-js/md5";
 
 // Your public and private keys
 var public_key = "801ffb179c43e62422d9c6ac3f1203f0";
@@ -14,8 +14,4 @@ var ts = new Date().getTime();
 // Creating the hash
 var hash = MD5(ts + private_key + public_key).toString();
 
-module.exports = {
-    ts: ts,
-    public_key: public_key,
-    hash: hash
-};
+export { ts, public_key, hash };
