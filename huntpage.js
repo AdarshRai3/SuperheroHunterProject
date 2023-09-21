@@ -1,1 +1,0 @@
-var MD5 = require("crypto-js/md5"); 
